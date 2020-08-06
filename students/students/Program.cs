@@ -9,20 +9,19 @@ namespace students
         {
             Console.WriteLine("ASDADASD");
         }
-        static void M2()
-        {
-
-           // aq.Run();
-        }
          static void Main(string[] args)
         {
-            Menu aq = new Menu("QQ");
-            aq.Add(new Simple_Item(M1, "aaa"));
-            Console.WriteLine("Hello World!");
-            Menu a = new Menu("d");
-            a.Add(new Simple_Item(M1, "a"));
-            a.Add(aq);
-            a.Run();
+            while (1 == 1)
+            {
+                Menu aq = new Menu("QQ");
+                aq.Add(new Simple_Item(M1, "aaa"));
+                Console.WriteLine("Hello World!");
+                Menu a = new Menu("d");
+                a.Add(new Simple_Item(M1, "a"));
+                a.Add(aq);
+                a.Run();
+            }
+
         }
     }
 }

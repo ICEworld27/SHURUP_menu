@@ -17,25 +17,29 @@ namespace students
             Console.WriteLine((items.Length+1) + ". выход");
             Console.Write("Введите нужный номер: ");
         }
-        public void HandleUserInput()
+        public bool HandleUserInput()
         {
             int asd = Convert.ToInt32(Console.ReadLine());
             if (asd-1 < items.Length && asd-1 > -1)
             {
                 items[asd-1].Run();
+                return false;
             }
             else
             {
                 if (asd-1 == items.Length)
                 {
-                    Environment.Exit(0);
+                    return true;
                 }
             }
+            return false;
         }
         public override void Run() 
         {
             print_menu();
-            HandleUserInput();
+            if (HandleUserInput() == true){
+                return;
+            }
         }
         public void Add(Item a)
         {
