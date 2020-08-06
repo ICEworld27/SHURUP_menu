@@ -11,16 +11,17 @@ namespace students
         }
         static void M2()
         {
-            Menu aq = new Menu("QQ");
-            aq.Add(new Simple_Item(M2, "aaa"));
-            aq.Run();
+
+           // aq.Run();
         }
          static void Main(string[] args)
         {
+            Menu aq = new Menu("QQ");
+            aq.Add(new Simple_Item(M1, "aaa"));
             Console.WriteLine("Hello World!");
             Menu a = new Menu("d");
             a.Add(new Simple_Item(M1, "a"));
-            a.Add(new Simple_Item(M2, "aaa"));
+            a.Add(aq);
             a.Run();
         }
     }

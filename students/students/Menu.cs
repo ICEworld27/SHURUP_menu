@@ -14,7 +14,7 @@ namespace students
             {
                 Console.WriteLine((i + 1) + ". " + items[i].get_title());
             }
-
+            Console.WriteLine((items.Length+1) + ". выход");
             Console.Write("Введите нужный номер: ");
         }
         public void HandleUserInput()
@@ -23,6 +23,13 @@ namespace students
             if (asd-1 < items.Length && asd-1 > -1)
             {
                 items[asd-1].Run();
+            }
+            else
+            {
+                if (asd-1 == items.Length)
+                {
+                    Environment.Exit(0);
+                }
             }
         }
         public override void Run() 
