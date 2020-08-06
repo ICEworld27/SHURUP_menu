@@ -19,7 +19,10 @@ namespace students
                 Menu a = new Menu("d");
                 a.Add(new Simple_Item(M1, "a"));
                 a.Add(aq);
+
                 a.Run();
+                
+                
             }
 
         }

@@ -10,6 +10,7 @@ namespace students
         private Item[] items =  new Item[0];
         public void print_menu()
         {
+            
             for (int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine((i + 1) + ". " + items[i].get_title());
@@ -34,12 +35,18 @@ namespace students
             }
             return false;
         }
+
         public override void Run() 
         {
-            print_menu();
-            if (HandleUserInput() == true){
-                return;
+            while (1 == 1)
+            {
+                print_menu();
+                if (HandleUserInput() == true)
+                {
+                    return;
+                }
             }
+
         }
         public void Add(Item a)
         {
