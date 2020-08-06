@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace students
-{
+{ /*
     class MyCommand
     {
         public void run()
@@ -17,10 +17,11 @@ namespace students
     }
     class MyCommand2 : MyCommand
     {
-        public new void run()
+        public void run()
         {
             Console.WriteLine("aa");
         }
         
     }
+    */
 }

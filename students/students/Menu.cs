@@ -37,7 +37,7 @@ namespace students
         }
         public Menu(string title) : base(title)
         {
-            MyCommand z = new MyCommand();
+            int[] z = new int[0];
         }
     }
 }

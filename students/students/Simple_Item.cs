@@ -6,14 +6,14 @@ namespace students
 {
     class Simple_Item : Item
     {
-        public MyCommand comand;
-        public Simple_Item(MyCommand com, string titl) : base(titl)
+        public Action comand;
+        public Simple_Item(Action com, string titl) : base(titl)
         {
             comand = com;
         }
         public override void Run()
         {
-            comand.run();
+            comand();
         }
     }
 }
