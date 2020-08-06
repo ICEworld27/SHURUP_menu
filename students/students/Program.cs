@@ -11,8 +11,7 @@ namespace students
         }
          static void Main(string[] args)
         {
-            while (1 == 1)
-            {
+
                 Menu aq = new Menu("QQ");
                 aq.Add(new Simple_Item(M1, "aaa"));
                 Console.WriteLine("Hello World!");
@@ -23,7 +22,7 @@ namespace students
                 a.Run();
                 
                 
-            }
+            
 
         }
     }

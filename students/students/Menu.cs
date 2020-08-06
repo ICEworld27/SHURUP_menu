@@ -38,7 +38,7 @@ namespace students
 
         public override void Run() 
         {
-            while (1 == 1)
+            while (true)
             {
                 print_menu();
                 if (HandleUserInput() == true)
