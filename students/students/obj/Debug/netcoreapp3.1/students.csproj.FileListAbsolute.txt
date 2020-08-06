@@ -1,0 +1,13 @@
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.csprojAssemblyReference.cache
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.AssemblyInfoInputs.cache
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.AssemblyInfo.cs
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.csproj.CoreCompileInputs.cache
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.exe
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.deps.json
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.runtimeconfig.json
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.runtimeconfig.dev.json
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.dll
+C:\Users\acern\source\repos\students\students\bin\Debug\netcoreapp3.1\students.pdb
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.dll
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.pdb
+C:\Users\acern\source\repos\students\students\obj\Debug\netcoreapp3.1\students.genruntimeconfig.cache
