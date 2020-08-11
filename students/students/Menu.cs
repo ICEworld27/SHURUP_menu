@@ -73,7 +73,7 @@ namespace students
         }
         public Menu addSubmenu(string title)
         {
-            Menu qwe = new Menu(title, true);
+            Menu qwe = new Menu(title);
             Array.Resize(ref items, items.Length + 1);
             items[items.Length - 1] = qwe;
             return qwe;
@@ -101,10 +101,11 @@ namespace students
         public Menu() : base("")
         {
             int[] z = new int[0];
+            sub = false;
         }
-        private Menu(string title, bool submenu = false) : base(title)
+        private Menu(string title) : base(title)
         {
-            sub = submenu;
+            sub = true;
             //int[] z = new int[0];
         }
     }
