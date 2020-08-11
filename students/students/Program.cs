@@ -19,10 +19,11 @@ namespace students
                 Menu aq = main_menu.addSubmenu("h");
                 aq.addSimpleMenuItem("aaa", M1);
                 main_menu.addSimpleMenuItem("adq", M1);
-                main_menu.addSubmenu("qw");
-                
+                aq.addSimpleMenuItem("aaa", M1);
 
-                main_menu.Run();
+
+
+            main_menu.Run();
                 
                 
             

@@ -18,8 +18,8 @@ namespace students
 
                 Console.WriteLine((i + 1) + ". " + items[i].get_title());
             }
-            if (this is Menu)
-            {
+            //if (this is Menu)
+            //{
                 Menu oi = (Menu)this;
                 
                 if (oi.getSub() == true)
@@ -30,7 +30,7 @@ namespace students
                 {
                     Console.WriteLine((items.Length + 1) + ". выход");
                 }
-            }
+           // }
             
             Console.Write("Введите нужный номер: ");
         }
@@ -105,7 +105,7 @@ namespace students
         private Menu(string title, bool submenu = false) : base(title)
         {
             sub = submenu;
-            int[] z = new int[0];
+            //int[] z = new int[0];
         }
     }
 }
